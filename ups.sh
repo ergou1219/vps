@@ -1,3 +1,4 @@
+yum update -y
 yum -y install ntpdate
 timedatectl set-timezone Asia/Shanghai
 ntpdate ntp1.aliyun.com
